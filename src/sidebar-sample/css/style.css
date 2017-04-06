@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', 'Malgun Gothic', '?? ??', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  margin:0 auto;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color:#f0f0f0;
+  background-color: #393939;
+}
+
+.section {
+  width:100%;
+  background-color:#f7f7f7;
+  margin: 5px auto 15px;
+}
+
+.section .title {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+.section .buttons {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.section .buttons button {
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin: 10px auto;
+  font-size: 13px;
+}
+
+.section .description {
+  padding: 10px 25px;
+  font-size: 13px;
+}
+
+.section .image {
+  padding: 5px 10px 10px;
+  text-align: center;
+}
+
+.section .image img {
+  width: 300px;
+  border: 1px solid #707070;
+  border-radius: 3px;
+}
+
+.section .log {
+  width: 300px;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  margin: 0px auto;
+  padding: 10px;
+}

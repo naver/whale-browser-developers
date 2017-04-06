@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Whale Sidebar Extension",
+  "description": "Helloworld sample test for Whale browser sidebar extension",
+  "version": "1.0",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_page": "index.html",
+    "default_title": "Whale Sidebar Extension"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "js/contentscript.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}

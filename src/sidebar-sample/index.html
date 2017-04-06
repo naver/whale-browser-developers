@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <title>Whale Sidebar Extension</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Whale Sidebar Extension Test</div>
+
+    <div class="section">
+      <div class="title">sidebarAction.show() /<br> sidebarAction.hide()</div>
+      <div class="description">
+        If you want to open or hide sidebar from some action from the web content,
+        you can call show() and hide() method using content scripts and background scripts.
+        Refer to contentscript.js and backgorund.js.
+        Test buttons are injected to all website to test this feature.
+      </div>
+      <div class="image">
+        <img src="img/img01.png" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="title">sidebarAction.getTitle() /<br> sidebarAction.setTitle()</div>
+      <div class="description">
+        You can update or retrieve the tooltip text using setTitle() and getTitle() method,
+        Refer to index.js. Test buttons are available below:
+      </div>
+      <div class="buttons">
+        <button id="setTitle1">Set title to 'ABC'</button>
+        <button id="setTitle2">Reset title</button>
+      </div>
+      <div class="image">
+        <img src="img/img02.png" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="title">
+        sidebarAction.setBadgeText() /<br>
+        sidebarAction.getBadgeText()
+      </div>
+      <div class="description">
+        You can update or retrieve the badge text or badge background color using
+        setBadgeText(), getBadgeText(), setBadgeBackgroundColor(), getBadgeBackgroundColor() method.
+        Refer to index.js. Test buttons are available below:
+      </div>
+      <div class="buttons">
+        <button id="setBadgeText1">Update badge text and color</button>
+        <button id="setBadgeText2">Reset badge</button>
+      </div>
+      <div class="image">
+        <img src="img/img03.png" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="title">
+        sidebarAction.onClicked
+      </div>
+      <div class="description">
+        sidebarAction.onClicked.addListener() is used to listen to the extension icon click events.
+        The result callback passes the window id and boolean flag whether the sidebar is opened or closed.
+        Refer to index.js. Event log:
+      </div>
+      <div id="clicklog" class="log">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
