@@ -66,7 +66,7 @@ If you wish to build a sidebar extension, you need to declare a sidebar action i
   ...
 }
 ```
-The [whale.sidebarAction](https://oss.navercorp.com/whale/developers/wiki/whale.sidebarAction) interface also provides powerful APIs to control the sidebar extension.
+The [whale.sidebarAction](https://github.com/naver/whale-developers/wiki/whale.sidebarAction) interface also provides powerful APIs to control the sidebar extension.
 
 ### Chrome extension overview
 Finally, the [chrome extension developer's guide](https://developer.chrome.com/extensions/overview) has dozens of additional links to pieces of documentation you might be interested in. You can use the [chrome.* extension APIs](https://developer.chrome.com/extensions/api_index) and [packaging](https://developer.chrome.com/extensions/packaging) specification.
