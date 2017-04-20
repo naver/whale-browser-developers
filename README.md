@@ -56,8 +56,7 @@ If you wish to build a sidebar extension, you need to declare a sidebar action i
   ...
   "sidebar_action": {
     "default_icon": {                      // required
-      "19": "images/icon19.png",
-      "38": "images/icon38.png"
+      "16": "images/icon16.png"
     },
     "default_page": "popup.html",          // required
     "default_title": "Sidebar Extension",   // optional; shown in tooltip
