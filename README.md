@@ -69,3 +69,9 @@ The [whale.sidebarAction](https://github.com/naver/whale-developers/wiki/whale.s
 
 ### Chrome extension overview
 Finally, the [chrome extension developer's guide](https://developer.chrome.com/extensions/overview) has dozens of additional links to pieces of documentation you might be interested in. You can use the [chrome.* extension APIs](https://developer.chrome.com/extensions/api_index) and [packaging](https://developer.chrome.com/extensions/packaging) specification.
+
+## More to read
+* [How to avoid my extension from changing urls](https://github.com/naver/whale-developers/wiki/How-to-avoid-my-extension-from-changing-urls)
+* [Client-side-application-vs-Server-side-application](https://github.com/naver/whale-developers/wiki/Client-side-application-vs-Server-side-application)
+* [Testing and debugging my extension](https://github.com/naver/whale-developers/wiki/How-to-test-and-debug-my-extension)
+* [Registering my whale extension](https://store.whale.naver.com/developers)
