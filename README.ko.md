@@ -1,9 +1,9 @@
 ## 웨일 확장앱이란 무엇인가?
 **extension을 확장앱으로 번역했습니다
 
-웨일 확장앱은 웨일 브라우저의 기능을 강화하는 작은 소프트웨어들이다. 
+웨일 확장앱은 웨일 브라우저의 기능을 강화하는 작은 소프트웨어들입니다. 
 
-웨일 확장앱은 기본적으로 크롬 확장앱(https://developer.chrome.com/extensions)의 구조를 공유하고, 구글 확장 API (https://developer.chrome.com/extensions/api_index)와 모두 호환됩니다. ‘chrom.*’ 네임스페이스를 사용하는 대신에 웨일확장앱은 ‘whale.*’이라는 네임스페이스로 모든 확장기능에 접근하도록 제공한다.
+웨일 확장앱은 기본적으로 크롬 확장앱(https://developer.chrome.com/extensions)의 구조를 공유하고, 구글 확장 API (https://developer.chrome.com/extensions/api_index)와 모두 호환됩니다. ‘chrom.*’ 네임스페이스를 사용하는 대신에 웨일확장앱은 ‘whale.*’이라는 네임스페이스로 모든 확장기능에 접근하도록 제공다.
 
 ```javascript
 whale.runtime.XXX
@@ -17,7 +17,7 @@ whale.storage.XXX
 
 ## 사이드 바?
 
-사이드바는 확장앱의 하나의 기능이면서 브라우저의 한쪽 면에서 나오는 웹 패널(슬라이드바가 있는 부분을 말한다)이다. 사용자는 다양한 확장앱과 사이드 바의 웹 패널을 자신의 요구대로(자신이 원하는 대로) 추가할 수 있다.
+사이드바는 확장앱의 하나의 기능이면서 브라우저의 한쪽 면에서 나오는 웹 패널(슬라이드바가 속한 부분)입니다. 사용자는 다양한 확장앱과 사이드 바의 웹 패널을 자신의 요구대로(자신이 원하는 대로) 추가할 수 있습니다.
 
 ![NCapture005.PNG](docs/f6ad8410-0808-11e7-8942-1cab765a9168.png)
 
@@ -26,9 +26,7 @@ whale.storage.XXX
 
 ![NCapture008.PNG](docs/7b2e651a-0809-11e7-8d33-7fe5093d0132.png)
 
-  * Web panels loads web resources from remote servers through HTTP and HTTPS, while sidebar extensions load local resources which are installed from the extension package.
-
-  * 웹 패널은 웹 상의 리소스를 HTTP와 HTTPS를 통해 원격으로 서버에서 로드하지만(가져오지만), 사이드 바는 확장 앱 패키지에서 설치된 로컬 리소스를 로드한다(가져온다).
+  * 웹 패널은 웹 상의 리소스를 HTTP와 HTTPS를 통해 원격으로 서버에서 로드하지만(가져오지만), 사이드 바는 확장 앱 패키지에서 설치된 로컬 리소스를 로드합니다(가져옵니다).
 
 ![NCapture007.PNG](docs/989e7932-0809-11e7-908c-7e3b96867080.png)
 
